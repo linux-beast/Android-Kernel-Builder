@@ -10,7 +10,7 @@
     "withKernelSU": true,
     "toolchains": [
       {
-        "repo": "https://github.com/kdrag0n/proton-clang",
+        "repo": "https://github.com/kdrag0n/proton-clang.git",
         "branch": "master",
         "name": "proton-clang",
         "binPath": ["bin"]
@@ -45,11 +45,11 @@
   },
   {
     "kernelSource": {
-      "name": "Thyme-Google",
-      "repo": "https://codeberg.org/DogDayAndroid/android_kernel_xiaomi_thyme",
-      "branch": "lineage-20.0",
-      "device": "thyme",
-      "defconfig": "thyme_defconfig"
+      "name": "kernel_oneplus_sm8250",
+      "repo": "https://github.com/PixelExperience-Devices/kernel_oneplus_sm8250.git",
+      "branch": "thirteen",
+      "device": "kebab",
+      "defconfig": "vendor/kona-perf_defconfig"
     },
     "withKernelSU": false,
     "toolchains": [
